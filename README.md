@@ -2,6 +2,8 @@
 #### Description :
 A space shooter game programmed in JavaScript / Phaser Framework for a school project, inspired by the old arcade games.
 
+- Link : http://codeperfectionist.com/articles/phaser-js-tutorial-building-a-polished-space-shooter-game-part-1/
+
 #### How to Play :
 Donwload the .zip file and open the *index.html* file.
 
