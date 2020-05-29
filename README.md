@@ -7,7 +7,7 @@ A space shooter game programmed in JavaScript / Phaser Framework for a school pr
 #### How to Play :
 Donwload the .zip file and open the *index.html* file.
 
-Some web browser like "Google Chrome" doesn't work for an incompatibility with the framework, it's raccomanded to use "Microsoft Edge"
+The web browsers based on Chrome, like "Google Chrome" or "Microsoft Edge" doesn't work for an incompatibility with the framework.
 to play this game!
 
 #### Changelog :
