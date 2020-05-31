@@ -11,4 +11,5 @@ The web browsers based on Chrome, like "Google Chrome" or "Microsoft Edge" doesn
 
 #### Changelog :
 **V1** -> The game finally work correctly, yay. (06/10/2019)
-**V2** -> Added a landing page for launching the game (31/05/2020)
+
+**V1.5** -> Added a landing page for launching the game (31/05/2020)
