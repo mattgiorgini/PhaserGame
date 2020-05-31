@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Phaser Game</title>
-        <script type="text/javascript" src="js/phaser.min.js"></script>
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <title>Phaser Game</title>
 
-    <body>
-        <script type="text/javascript" src="js/game.js"></script>
-    </body>
+    <style>
+
+      body {   
+        text-align: center;
+        font-family: "Press Start 2P";
+        color: white;
+        background-image: url('https://i.imgur.com/xChy58V.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+  
+      h1 {
+        color: #df3907;
+        padding: 20px;
+        font-size: 75px;
+      }
+  
+      h2 {   
+        font-size: 25px;
+        line-height: 0;
+      }
+  
+      h3 {   
+        color: #df3907;
+        padding: 10px;
+        font-size: 25px;
+      }
+  
+      p {
+        font-size: 20px;
+        padding: 20px;
+      }
+  
+      p.footer {
+        position: fixed;
+        left: 0;
+        bottom: 50px;
+        width: 100%;
+        font-size: 10px;
+        color: white;
+      }
+  
+      a.button {
+      background-color:#df3907;
+      padding: 25px 100px;
+      border: 2px solid rgba(255, 255, 255, 0);
+      border-radius: 20px;
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: "Press Start 2P";
+      color: white;
+      text-shadow: 0 1px 1px black;
+      text-align:center;
+      transition: all 0.2s;
+      }
+      
+      a.button:hover {
+      border-color: white;
+      }
+  
+    </style>
+  </head>
+
+  <body>
+    <h1>Phaser Game</h1>
+    <h2>An <b>old-style</b> space shooter game!</h2>
+
+    <br>
+
+    <h3>ABOUT</h3>
+    <p>This is a browser game, enterely made in JavaScript and a powerful framework.
+      The style is similar to the old space shooter games, that could be played in the coolest game rooms, but
+      easily aviable online!
+    </p>
+
+    <h3>CONTROLS</h3>
+    <p>Arrow Keys : Move your cool ship <br> R : Restart the game <br> M : Mute BGM</p>
+
+    <br>
+
+    <a href="game.html" class="button"
+    onclick="window.open(this.href,'targetWindow', 'toolbar=no, resizable=no, width=817, height=617'); return false;"> PLAY </a>
+    <p class="footer"> Made by <b>Giorgini Matteo</b> </p>
+
+  </body>
 </html>
